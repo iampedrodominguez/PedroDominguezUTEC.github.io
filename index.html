@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <style>
+            
+            body {
+                background-color: lightgray;
+            }
+            h1 {
+                font-size: 10px;
+            }
+
+            #mititulo {
+                font-size: 50px;
+                text-align: center;
+            }
+            
+            #paragraph {
+                font-size: 20px;
+                text-align: center;
+            }
+
+            h2 {
+                font-size: 35px;
+            }
+
+           .center {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 10%;
+            }
+            
+            p {
+                font-size: 20px;
+            }
+
+            li {
+                font-size: 20px;
+            }
+
+        </style>
+        
+        <script>
+            window.onload = function(){
+
+                document.getElementById("mititulo").innerHTML = "Pedro Dom&iacute;nguez Aspilcueta";
+            }
+            function mostrarMensaje(){
+                alert("Name: Pedro Domínguez Aspilcueta\nEmail: pedro.dominguez@utec.edu.pe")
+            }
+        </script>
+    </head>
+
+    <body>
+        <p>
+            <img src="https://b.thumbs.redditmedia.com/1Tj5A-SF1Wd0b5TOOKVm145yG88HEIbBwjIT6utaDDc.png" class="center">
+        </p>
+        <hr>
+        <h1 id="mititulo"></h1>
+        <p>
+            <button class="center" onclick="mostrarMensaje();">Get my info</button>
+        </p>
+        <h2><u>Overview</u></h2>
+
+        <p id="paragraph">A college student who does college student things. Check out my 
+            <a href="https://github.com/PedroDominguezUTEC">github</a> and you might or might not find something interesting.
+        </p>
+        <hr>
+        <p>Programming languages I use the most this semester:</p>
+        <ol>
+            <li>C</li>
+            <li>Javascript</li>
+            <li>Python</li>
+            <li>R</li>
+        </ol>
+
+        <p> Also whenever I'm not working I'm:</p>
+        <ul>
+            <li>Watching a movie</li>
+            <li>Reading some books</li>
+            <li>Playing a videogame</li>
+            <li>Coding something</li>
+            <li>Resting for the next college semester</li>
+        </ul>
+        <hr>
+    </body>
+
+</html>
