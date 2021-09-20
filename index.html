@@ -25,7 +25,10 @@
             h2 {
                 font-size: 35px;
             }
-
+            sub {
+                vertical-align: sub;
+                font-size: smaller;
+            }
            .center {
                 display: block;
                 margin-left: auto;
@@ -46,7 +49,7 @@
         <script>
             window.onload = function(){
 
-                document.getElementById("mititulo").innerHTML = "Pedro Dom&iacute;nguez Aspilcueta";
+                document.getElementById("mititulo").innerHTML = "Pedro Dom&iacute;nguez Aspilcueta" + '<a href="https://github.com/franciscovilchezv/platform-based-development/blob/main/Homeworks/Homework2/hw2-part1.md#h1-h2-y-listas-1pto">'+"[1]".sub()+'</a>';
             }
             function mostrarMensaje(){
                 alert("Name: Pedro Domínguez Aspilcueta\nEmail: pedro.dominguez@utec.edu.pe")
@@ -56,17 +59,18 @@
 
     <body>
         <p>
-            <img src="https://b.thumbs.redditmedia.com/1Tj5A-SF1Wd0b5TOOKVm145yG88HEIbBwjIT6utaDDc.png" class="center">
+            <img src="https://b.thumbs.redditmedia.com/1Tj5A-SF1Wd0b5TOOKVm145yG88HEIbBwjIT6utaDDc.png" class="center"><sub style="margin-left: 700px"><a href="https://github.com/franciscovilchezv/platform-based-development/blob/main/Homeworks/Homework2/hw2-part1.md#im%C3%A1genes-1pto">[3]</a></sub>
         </p>
         <hr>
         <h1 id="mititulo"></h1>
         <p>
-            <button class="center" onclick="mostrarMensaje();">Get my info</button>
+            <button class="center" onclick="mostrarMensaje();">Get my info</button> <sub style="margin-left: 700px"><a href="https://github.com/franciscovilchezv/platform-based-development/blob/main/Homeworks/Homework2/hw2-part1.md#mensaje-de-saludo-1pto">[5]</a></sub>
         </p>
-        <h2><u>Overview</u></h2>
+        <h2><u>Overview</u><sub><a href="https://github.com/franciscovilchezv/platform-based-development/blob/main/Homeworks/Homework2/hw2-part1.md#h1-h2-y-listas-1pto">[1]</a></sub></h2>
 
         <p id="paragraph">A college student who does college student things. Check out my 
-            <a href="https://github.com/PedroDominguezUTEC">github</a> and you might or might not find something interesting.
+            <a href="https://github.com/PedroDominguezUTEC">github</a><sub><a href="https://github.com/franciscovilchezv/platform-based-development/blob/main/Homeworks/Homework2/hw2-part1.md#link-y-separaciones-1pto">[2]</a></sub>
+             and you might or might not find something interesting.<sub><a href="https://github.com/franciscovilchezv/platform-based-development/blob/main/Homeworks/Homework2/hw2-part1.md#h1-h2-y-listas-1pto">[1]</a></sub>
         </p>
         <hr>
         <p>Programming languages I use the most this semester:</p>
@@ -74,7 +78,7 @@
             <li>C</li>
             <li>Javascript</li>
             <li>Python</li>
-            <li>R</li>
+            <li>R<sub><a href="https://github.com/franciscovilchezv/platform-based-development/blob/main/Homeworks/Homework2/hw2-part1.md#h1-h2-y-listas-1pto">[1]</a></sub></li>
         </ol>
 
         <p> Also whenever I'm not working I'm:</p>
@@ -86,6 +90,8 @@
             <li>Resting for the next college semester</li>
         </ul>
         <hr>
+
+        <a href="https://github.com/franciscovilchezv/platform-based-development/blob/main/Homeworks/Homework2/hw2-part1.md#color-de-fondo-1pto" style="margin-left: 1200px;">[4]</a>
     </body>
 
 </html>
